@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="",
 )
 
 MODEL = "openai/gpt-oss-20b:free"
